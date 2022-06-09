@@ -8,7 +8,7 @@ There are two different ways for installing PHPUnit. Details on them could be fo
 #### # Installing composer
 First we need to install **Composer**. Composer is a dependency manager for PHP. Which is similar to NPM for Node, RubyGems for Ruby and PIP for Python.
 
-Instruction for installation could be found [here](https://getcomposer.org/download/).
+Instruction for installation can be found [here](https://getcomposer.org/download/).
 
 #### # Directory structure
 This is just a sample directory structure. There is some important things to notice here. Under the project root directory we have `src` directory which contains the source code of our application. Also, we have `tests` directory which contains the tests.
