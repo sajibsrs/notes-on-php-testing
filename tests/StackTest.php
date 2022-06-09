@@ -8,16 +8,16 @@ use PHPUnit\Framework\TestCase;
  */
 final class StackTest extends TestCase
 {
-    public function testOne(): bool
+    public function testAssertsThatTheValueIsTrue(): bool
     {
         $this->assertTrue(true);
         return false;
     }
 
     /**
-     * @depends testOne
+     * @depends testAssertsThatTheValueIsTrue
      */
-    public function testTwo(bool $bla): void
+    public function testAssertsThatTheValueIsFalse(bool $bla): void
     {
         $this->assertFalse($bla);
     }
