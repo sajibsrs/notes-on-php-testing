@@ -6,6 +6,9 @@
 There are two different ways for installing PHPUnit. Details on them could be found on its official [documentation](https://phpunit.de/getting-started/phpunit-9.html). We are going to use the **Composer** method, as it's the recommended way.
 
 #### # Installing composer
+First we need to install **Composer**. Composer is a dependency manager for PHP. Which is similar to NPM for Node, RubyGems for Ruby and PIP for Python.
+
+Instruction for installation could be found [here](https://getcomposer.org/download/).
 
 #### # Directory structure
 ```sh
