@@ -2,17 +2,19 @@
 
 ## # Testing with PHPUnit
 
-### # [PHPUnit installation methods](docs/phpunit-configuration.md#-phpunit-installation-methods)
+### # Installation and configuration
 
-### # Installing composer
+#### # [PHPUnit installation methods](docs/phpunit-configuration.md#-phpunit-installation-methods)
 
-### # Directory structure
+#### # Installing composer
 
-### # Installing PHPUnit
+#### # Directory structure
 
-## # Dumping autoload file
+#### # Installing PHPUnit
 
-### # Generating configuration file
+#### # Dumping autoload file
+
+#### # Generating configuration file
 
 ### # Testing
 
