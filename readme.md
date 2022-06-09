@@ -66,7 +66,10 @@ testing             # project root directory
 ```
 
 ### # Testing
-#### # Unit testing
+
+#### # Testing with PHPUnit
+
+#### # Running test
 ```console
 ./vendor/bin/phpunit
 ```
