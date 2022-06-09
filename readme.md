@@ -3,6 +3,7 @@
 ## # Testing with PHPUnit
 
 ### # Configuration
+There are two different ways for installing PHPUnit. Details on them could be found on its official [documentation](https://phpunit.de/getting-started/phpunit-9.html). We are going to use the **Composer** method, as it's the recommended way.
 
 #### # Installing composer
 
