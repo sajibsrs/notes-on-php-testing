@@ -11,6 +11,10 @@ First we need to install **Composer**. Composer is a dependency manager for PHP.
 Instruction for installation could be found [here](https://getcomposer.org/download/).
 
 #### # Directory structure
+This is just a sample directory structure. There is some important things to notice here. Under the project root directory we have `src` directory which contains the source code of our application. Also, we have `tests` directory which contains the tests.
+
+The two directories `src` and `tests` are named following the convention. But you can name anything you want.
+
 ```sh
 testing             # project root directory
 --src               # project source code directory
