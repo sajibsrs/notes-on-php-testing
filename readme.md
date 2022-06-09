@@ -73,7 +73,7 @@ Time: 00:00.005, Memory: 6.00 MB
 OK (5 tests, 5 assertions)
 ```
 
-Alternatively, documented version of the test can be displayed by adding `--testdox` after `phpuni` command.
+Alternatively, documented version of the test can be displayed by adding `--testdox` after `phpunit` command.
 ```console
 ./vendor/bin/phpunit --testdox
 ```
