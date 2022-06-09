@@ -26,6 +26,8 @@ testing             # project root directory
 ```
 
 #### # Installing PHPUnit
+Next, we need to create a configuration file for composer. With a autoload directory and PHPUnit as development requirement. Then run `composer install`. There are other methods for configuring composer project, but this is convenient for our purpose.
+
 ```json
 {   
     "autoload": {
@@ -38,8 +40,10 @@ testing             # project root directory
     }
 }
 ```
+After running the installation process, you can see there is an additional **vendor** directory has been added to the project. Which contains PHPUnit and other dependencies of the project.
 
-#### # Generating autoload file
+You may need to run following command:
+
 ```console
 composer dump-autoload
 ```
