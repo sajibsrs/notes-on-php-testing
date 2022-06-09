@@ -18,7 +18,6 @@ testing             # project root directory
 --tests             # project tests directory
   --EmailTest.php
   --StackTest.php
---vendor
 --composer.json
 ```
 
