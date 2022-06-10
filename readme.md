@@ -19,9 +19,9 @@
 ### # Testing with PHPUnit
 
 #### # Writing tests
-* Writing a simple test
+* [Writing a simple test](docs/phpunit-writing-test.md#-writing-a-simple-test)
 * Test fixtures ( before | after )
-* Testing with dependency
+* [Testing with dependency](docs/phpunit-writing-test.md#-testing-with-dependency)
 * Testing with data providers
 * Testing exceptions
 * Testing errors, warnings and notices
