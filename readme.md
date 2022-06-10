@@ -4,17 +4,17 @@
 
 ### # Installation and configuration
 
-* #### [PHPUnit installation methods](docs/phpunit-configuration.md#-phpunit-installation-methods)
+* [PHPUnit installation methods](docs/phpunit-configuration.md#-phpunit-installation-methods)
 
-* #### [Installing composer](docs/phpunit-configuration.md#-installing-composer)
+* [Installing composer](docs/phpunit-configuration.md#-installing-composer)
 
-* #### [Directory structure](docs/phpunit-configuration.md#-directory-structure)
+* [Directory structure](docs/phpunit-configuration.md#-directory-structure)
 
-* #### [Installing PHPUnit](docs/phpunit-configuration.md#-installing-phpunit)
+* [Installing PHPUnit](docs/phpunit-configuration.md#-installing-phpunit)
 
-* #### [Dumping autoload file](docs/phpunit-configuration.md#-dumping-autoload-file)
+* [Dumping autoload file](docs/phpunit-configuration.md#-dumping-autoload-file)
 
-* #### [Generating configuration file](docs/phpunit-configuration.md#-generating-configuration-file)
+* [Generating configuration file](docs/phpunit-configuration.md#-generating-configuration-file)
 
 ### # Testing with PHPUnit
 
