@@ -25,14 +25,13 @@
 * Testing with data providers
 * Testing exceptions
 * Testing errors, warnings and notices
+* Risky tests
+* Incomplete and skipped tests
+* Test doubles
 
 #### # Organizing tests
 * Composing test suite using filesystem
 * Composing test suite using XML configuration
-
-#### # Risky tests
-#### # Incomplete and skipped tests
-#### # Test doubles
 
 #### # Running tests
 * [Running test on project](docs/phpunit-running-test.md#-running-test-on-project)
