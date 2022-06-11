@@ -17,7 +17,7 @@
 * [Testing with dependency](docs/phpunit-writing-test.md#-testing-with-dependency)
 * [Testing with data providers](docs/phpunit-writing-test.md#-testing-with-data-providers)
 * [Testing exceptions, errors, warnings and notices](docs/phpunit-writing-test.md#-testing-exceptions-errors-warnings-and-notices)
-* Testing output
+* [Testing output](docs/phpunit-writing-test.md#-testing-output)
 
 
 #### # Risky tests
