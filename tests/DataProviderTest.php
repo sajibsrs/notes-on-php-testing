@@ -3,7 +3,7 @@
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers DataProvider
+ * @covers DataProviderTest
  */
 final class DataProviderTest extends TestCase
 {
