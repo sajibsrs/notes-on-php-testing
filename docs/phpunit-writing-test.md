@@ -12,15 +12,12 @@ class SimpleTest extends TestCase
         $arr = [];
 
         $this->assertTrue(empty($arr));
-        
         $this->assertSame([], $arr);
-        
         $this->assertSame(0, count($arr));
 
         array_push($arr, 'Dog');
 
         $this->assertSame(1, count($arr));
-
         $this->assertFalse(empty($arr));
     }
 }
