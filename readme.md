@@ -20,14 +20,15 @@
 
 #### # Writing tests
 * [Writing a simple test](docs/phpunit-writing-test.md#-writing-a-simple-test)
-* Test fixtures ( before | after )
 * [Testing with dependency](docs/phpunit-writing-test.md#-testing-with-dependency)
-* Testing with data providers
-* Testing exceptions
-* Testing errors, warnings and notices
-* Risky tests
-* Incomplete and skipped tests
-* Test doubles
+* [Testing with data providers](docs/phpunit-writing-test.md#-testing-with-data-providers)
+* [Testing exceptions, errors, warnings and notices](docs/phpunit-writing-test.md#-testing-exceptions-errors-warnings-and-notices)
+* Testing output
+
+
+#### # Risky tests
+#### # Incomplete and skipped tests
+#### # Test doubles
 
 #### # Organizing tests
 * Composing test suite using filesystem
@@ -40,7 +41,7 @@
 
 #### # Logging
 #### # Code coverage
-* [Running coverage test](docs/phpunit-code-coverage.md#-running-code-coverage)
+* [Running code coverage](docs/phpunit-code-coverage.md#-running-code-coverage)
 
 ## # Xdebug
 
