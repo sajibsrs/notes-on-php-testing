@@ -99,7 +99,7 @@ final class DataProviderTest extends TestCase
 ```
 *Note: Iterable can be used as data provider. Also, multiple data provider can be used in a single test.*
 
-## # Testing exceptions
+## # Testing exceptions, errors, warnings and notices
 ```php
 <?php declare(strict_types=1);
 
@@ -133,5 +133,6 @@ final class ExceptionTest extends TestCase
 }
 ```
 
-## # Testing errors, warnings and notices
+## # Testing output
+
 ## # Test fixtures
