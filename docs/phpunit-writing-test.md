@@ -134,5 +134,22 @@ final class ExceptionTest extends TestCase
 ```
 
 ## # Testing output
+```php
+
+final class OutputTest extends TestCase
+{
+    public function testExpectOutputDog(): void
+    {
+        $this->expectOutputString('Dog');
+        print 'Dog';
+    }
+
+    public function testExpectOutputCat(): void
+    {
+        $this->expectOutputString('Cat');
+        print 'Cat';
+    }
+}
+```
 
 ## # Test fixtures
