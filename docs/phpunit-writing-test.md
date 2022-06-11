@@ -97,7 +97,7 @@ final class DataProviderTest extends TestCase
     }
 }
 ```
-Iterable can be used as data provider. Also, multiple data provider can be used in a single test.
+*Note: Iterable can be used as data provider. Also, multiple data provider can be used in a single test.*
 
 ## # Testing exceptions
 ## # Testing errors, warnings and notices
