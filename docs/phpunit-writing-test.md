@@ -153,3 +153,7 @@ final class OutputTest extends TestCase
 ```
 
 ## # Test fixtures
+* setUp()
+* tearDown()
+* setUpBeforeClass()
+* tearDownAfterClass()
