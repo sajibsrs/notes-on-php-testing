@@ -23,6 +23,8 @@
 #### # Risky tests
 #### # Incomplete and skipped tests
 #### # Test doubles
+* [Stubs](docs/phpunit-test-doubles.md#-stubs)
+* [Mocking objects](docs/phpunit-test-doubles.md#-mocking-objects)
 
 #### # Organizing tests
 * Composing test suite using filesystem
