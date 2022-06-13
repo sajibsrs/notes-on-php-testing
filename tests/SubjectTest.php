@@ -1,9 +1,12 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
 
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers Subject
+ * @covers \Subject
+ * @uses \Observer
  */
 final class SubjectTest extends TestCase
 {
@@ -36,5 +39,23 @@ final class SubjectTest extends TestCase
 
         $mock->set('foo', 21);
         $mock->set('bar', 48);
+    }
+
+    public function testErrorReported(): void
+    {
+        $observer = $this->createMock(Observer::class);
+
+        $observer->expects($this->once())
+            ->method('reportError')
+            ->with(
+                $this->greaterThan(0),
+                $this->stringContains('Something'),
+                $this->anything()
+            );
+
+        $subject = new Subject('My subject');
+        $subject->attach($observer);
+
+        $subject->doSomethingBad();
     }
 }
