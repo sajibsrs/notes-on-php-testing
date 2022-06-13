@@ -32,8 +32,8 @@
 
 #### # Running tests
 * [Running test on project](docs/phpunit-running-test.md#-running-test-on-project)
-* Running test on single file
-* Running test on directory
+* [Running test on single file](docs/phpunit-running-test.md#-running-test-on-single-file)
+* [Running test on directory](docs/phpunit-running-test.md#-running-test-on-directory)
 
 #### # Logging
 #### # Code coverage
