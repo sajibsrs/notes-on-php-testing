@@ -48,4 +48,11 @@ OK (5 tests, 5 assertions)
 ```
 
 ## # Running test on single file
+```console
+./vendor/bin/phpunit fileName.php
+```
+
 ## # Running test on directory
+```console
+./vendor/bin/phpunit directoryName
+```
